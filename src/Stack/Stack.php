@@ -1,4 +1,5 @@
 <?php
+
 namespace VdkIldar\CleanCraftsmanship\Stack;
 
 

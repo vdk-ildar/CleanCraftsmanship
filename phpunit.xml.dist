@@ -16,5 +16,8 @@
     <testsuite name="PrimeFactors">
       <directory>src/PrimeFactors</directory>
     </testsuite>
+    <testsuite name="Bowling">
+      <directory>src/Bowling/Tests</directory>
+    </testsuite>
   </testsuites>
 </phpunit>

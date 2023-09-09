@@ -1,9 +1,10 @@
 <?php
+
 namespace VdkIldar\CleanCraftsmanship\Stack\Tests;
 
+use PHPUnit\Framework\TestCase;
 use VdkIldar\CleanCraftsmanship\Stack\Exception\UnderflowException;
 use VdkIldar\CleanCraftsmanship\Stack\Stack;
-use \PHPUnit\Framework\TestCase;
 
 class StackTest extends TestCase
 {
@@ -69,7 +70,5 @@ class StackTest extends TestCase
 
         $this->assertEquals(88, $this->stack->pop());
         $this->assertEquals(99, $this->stack->pop());
-
-
     }
 }
