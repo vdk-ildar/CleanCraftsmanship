@@ -19,5 +19,11 @@
     <testsuite name="Bowling">
       <directory>src/Bowling/Tests</directory>
     </testsuite>
+    <testsuite name="Sort1">
+      <directory>src/Sort1</directory>
+    </testsuite>
+    <testsuite name="Sort2">
+      <directory>src/Sort2</directory>
+    </testsuite>
   </testsuites>
 </phpunit>
